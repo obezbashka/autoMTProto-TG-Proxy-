@@ -22,7 +22,7 @@ Bash-установщик **Telegram MTProto Proxy** для Ubuntu/Debian.
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install -y sudo curl
+sudo apt install -y sudo wget
 
 ## Установка
 bash <(wget -qO- https://raw.githubusercontent.com/obezbashka/autoMTProto-TG-Proxy-/main/install_mtproxy.sh)
