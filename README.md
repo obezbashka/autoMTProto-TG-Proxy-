@@ -16,7 +16,7 @@ Bash-установщик Telegram MTProto Proxy для Ubuntu/Debian.
 apt update
 apt upgrade
 apt install sudo
-apt install curl
+apt install wget
 
 ## Установка
-bash <(curl -fsSL https://raw.githubusercontent.com/obezbashka/autoMTProto-TG-Proxy-/main/mtproxy_manager.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/obezbashka/autoMTProto-TG-Proxy-/main/install_mtproxy.sh)
